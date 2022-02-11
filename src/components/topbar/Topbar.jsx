@@ -22,6 +22,11 @@ export default function TopBar() {
             <Settings></Settings>
             <span className="topIconBadge">2</span>
           </div>
+          <img
+            src="https://avatars.githubusercontent.com/u/56884655?s=400&u=ad79cca06cc501dd2ef0e17895bf272d0e53f35d&v=4"
+            alt=""
+            className="topAvatar"
+          />
         </div>
       </div>
     </div>

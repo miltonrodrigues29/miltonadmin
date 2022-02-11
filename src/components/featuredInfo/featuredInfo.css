@@ -1,0 +1,18 @@
+.featured {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.featuredItem {
+  flex: 1;
+  margin: 0px 20px;
+  padding: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+
+  box-shadow: 1px 2px 16px 2px rgba(163, 156, 156, 0.75);
+  -webkit-box-shadow: 1px 2px 16px 2px rgba(163, 156, 156, 0.75);
+  -moz-box-shadow: 1px 2px 16px 2px rgba(163, 156, 156, 0.75);
+}
