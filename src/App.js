@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 import "./app.css";
 
-import NewUser from "./components/pages/home/newUser/NewUser";
+import NewUser from "./components/pages/newUser/NewUser";
 import UserList from "./components/pages/userList/UserList";
 import User from "./components/pages/user/User";
 import ProductList from "./components/pages/productList/ProductList";
