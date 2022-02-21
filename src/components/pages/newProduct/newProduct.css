@@ -1,0 +1,28 @@
+.newProduct {
+  flex: 4;
+}
+.newProductForm {
+  display: flex;
+  width: 200px;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.newProductTitle {
+  color: gray;
+  margin-right: 10px;
+}
+.formItem {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.newProductButton {
+  width: 80px;
+  border: none;
+  padding: 5px;
+  background-color: darkblue;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
