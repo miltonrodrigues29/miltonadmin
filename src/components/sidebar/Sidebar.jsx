@@ -21,10 +21,12 @@ export default function Sidebar() {
         <div className="sidebarMenu">
           <h3 className="sidebarTitle">Dashboard</h3>
           <ul className="sidebarList">
-            <li className="sidebarListItem active">
-              <LineStyle className="sidebarIcon" />
-              Home
-            </li>
+            <Link className="link" to="/">
+              <li className="sidebarListItem active">
+                <LineStyle className="sidebarIcon" />
+                Home
+              </li>
+            </Link>
 
             <li className="sidebarListItem">
               <Timeline className="sidebarIcon" />
@@ -45,11 +47,12 @@ export default function Sidebar() {
                 Users
               </li>
             </Link>
-
-            <li className="sidebarListItem">
-              <Storefront className="sidebarIcon" />
-              Products
-            </li>
+            <Link className="link" to="/products">
+              <li className="sidebarListItem">
+                <Storefront className="sidebarIcon" />
+                Products
+              </li>
+            </Link>
 
             <li className="sidebarListItem">
               <AttachMoney className="sidebarIcon" />

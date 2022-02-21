@@ -107,3 +107,62 @@ export const userRows = [
     transaction: "$120.00",
   },
 ];
+
+export const productRows = [
+  {
+    id: 1,
+    name: "Apple Airpods",
+    img: "https://static.toiimg.com/photo/msid-87180631/87180631.jpg",
+    stock: 123,
+    status: "active",
+    price: "$120.00",
+  },
+  {
+    id: 2,
+    name: "Apple Airpods",
+    img: "https://static.toiimg.com/photo/msid-87180631/87180631.jpg",
+    stock: 123,
+    status: "active",
+    price: "$120.00",
+  },
+  {
+    id: 3,
+    name: "Apple Airpods",
+    img: "https://static.toiimg.com/photo/msid-87180631/87180631.jpg",
+    stock: 123,
+    status: "active",
+    price: "$120.00",
+  },
+  {
+    id: 4,
+    name: "Apple Airpods",
+    img: "https://static.toiimg.com/photo/msid-87180631/87180631.jpg",
+    stock: 123,
+    status: "active",
+    price: "$120.00",
+  },
+  {
+    id: 5,
+    name: "Apple Airpods",
+    img: "https://static.toiimg.com/photo/msid-87180631/87180631.jpg",
+    stock: 123,
+    status: "active",
+    price: "$120.00",
+  },
+  {
+    id: 6,
+    name: "Apple Airpods",
+    img: "https://static.toiimg.com/photo/msid-87180631/87180631.jpg",
+    stock: 123,
+    status: "active",
+    price: "$120.00",
+  },
+  {
+    id: 7,
+    name: "Apple Airpods",
+    img: "https://static.toiimg.com/photo/msid-87180631/87180631.jpg",
+    stock: 123,
+    status: "active",
+    price: "$120.00",
+  },
+];

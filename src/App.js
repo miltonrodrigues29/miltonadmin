@@ -5,8 +5,12 @@ import Home from "./components/pages/home/Home";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 import "./app.css";
-import UserList from "./components/pages/home/userList/UserList";
-import User from "./components/pages/home/user/User";
+
+import NewUser from "./components/pages/home/newUser/NewUser";
+import UserList from "./components/pages/userList/UserList";
+import User from "./components/pages/user/User";
+import ProductList from "./components/pages/productList/ProductList";
+import Product from "./components/pages/product/Product";
 
 function App() {
   return (
@@ -18,6 +22,10 @@ function App() {
           <Route exact path="/" element={<Home />}></Route>
           <Route path="/users" element={<UserList />}></Route>
           <Route path="/user/:userId" element={<User />}></Route>
+          <Route path="/newUser" element={<NewUser />}></Route>
+          <Route path="/products" element={<ProductList />}></Route>
+          <Route path="/products/:productId" element={<Product />}></Route>
+          <Route path="/newProducts" element={<NewUser />}></Route>
         </Routes>
       </div>
     </Router>
